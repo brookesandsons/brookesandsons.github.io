@@ -1,0 +1,10 @@
+@media (max-width: 450px) {
+  .main-navigation li {
+	display: inline-block;
+	margin-right: 10px;
+	font-size: .9em;
+}
+	#sticky-nav-sticky-wrapper.is-sticky {
+		display: none;
+	}
+}

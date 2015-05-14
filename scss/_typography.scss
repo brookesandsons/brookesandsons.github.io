@@ -1,0 +1,93 @@
+/***************************************
+TYPOGRAPHY
+****************************************/
+
+html {
+	font-size: 1em;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+}
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 2.074em;
+}
+
+h2 {font-size: 1.728em;}
+
+h3 {font-size: 1.44em;}
+
+h4 {font-size: 1.2em;}
+
+small, .font_small {font-size: 0.833em;}
+
+.mast-head p {
+  font-size: .8em;
+}
+
+.section-about h2, .section-about h3 {
+	color: white;
+}
+
+.section-contact h3 {
+	color: white;
+}
+
+.about-bs h1, .contact-bs h1 {
+  color: #fff;
+}
+
+.about-bs p {
+  font-size: 1.15em;
+  color: #fff;
+}
+
+.about-bs p:last-child {
+  margin-bottom: 0;
+}
+
+.contact-bs .panel a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.contact-bs .panel a:hover {
+  text-decoration: none;
+  color: #edb41c;
+}
+
+.copyright-bs p {
+  color: white;
+  font-size: .9em;
+  margin-bottom: 5px;
+}
+
+.copyright-bs a {
+  text-decoration: none;
+  color: #edb41c;
+}
+
+.copyright-bs a:hover {
+  background-color: white;
+  color: #066859;
+}
+
+
+
+
+

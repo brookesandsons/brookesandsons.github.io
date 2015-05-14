@@ -1,0 +1,270 @@
+
+@import 'normalize';
+@import 'bootstrap';
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@import 'typography';
+
+/***************************************
+MAIN STYLES
+****************************************/
+
+.contain-width {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.mast-head {
+	height: 100vh;
+	background-color: white;
+	background-image: url("../img/sky.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+  	text-align: center;
+}
+
+.mast-head .fa {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	color: #edb41c;
+	padding-bottom: 50px;
+}
+
+.mast-head .fa:hover {
+	color: #066859;
+}
+
+.main-logo {
+	max-width: 100%;
+	padding: 0 100px;
+}
+
+.box-bs  {
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.mast-head .box-bs {
+	margin-top: 80px;
+	padding: 70px 0 0 0;
+	-webkit-box-shadow: 4px 4px 15px 0px rgba(51,51,51,1);
+	-moz-box-shadow: 4px 4px 15px 0px rgba(51,51,51,1);
+	box-shadow: 4px 4px 15px 0px rgba(51,51,51,1);
+}
+
+/***************************************
+NAVIGATION
+****************************************/
+
+.main-navigation {
+	width: 100%;
+	padding: 15px 0;
+  z-index: 1000;
+}
+
+.main-navigation ul {
+	list-style: none;
+	padding: 10px 0;
+	margin: 0;
+	width: 100%;
+}
+
+.main-navigation li {
+	display: inline-block;
+	margin-right: 15px;
+	font-size: 1.15em;
+}
+
+.main-navigation li:last-child {
+	margin-right: 0;
+}
+
+.main-navigation a {
+	text-decoration: none;
+	color: #066859;
+}
+
+.main-navigation a:hover {
+	border-bottom: 3px solid #edb41c;
+}
+
+.nav-logo {
+  display: none;
+  width: 120px;
+}
+
+.is-sticky .main-navigation {
+	width: 100% !important;
+	top: 0;
+	left: 0;
+  background-color: #fff;
+  -webkit-box-shadow: 4px 4px 15px 0px rgba(51,51,51,1);
+-moz-box-shadow: 4px 4px 15px 0px rgba(51,51,51,1);
+box-shadow: 4px 4px 15px 0px rgba(51,51,51,1);
+}
+
+.is-sticky .nav-logo {
+  display: inline;
+  float: left;
+}
+
+.is-sticky .nav-right {
+  float: right;
+}
+
+.col-centered {
+	float: none;
+	margin: 0 auto;
+}
+
+/***************************************
+ABOUT
+****************************************/
+
+.about-bs {
+	background-color: #066859;
+  padding: 90px 0;
+}
+
+.img_center {
+  text-align: center;
+  margin-top: 15px;
+}
+
+/***************************************
+SERVICES
+****************************************/
+
+.services-bs {
+  padding: 90px 0;
+  background-color: #ddd;
+}
+
+.panel-default > .domestic-bs {
+  background-color: #066859;
+  color: #fff;
+}
+
+.panel-default > .commercial-bs {
+  background-color: #edb41c;
+}
+
+/***************************************
+AREAS COVERED
+****************************************/
+
+.areas-covered-bs {
+	background-color: #edb41c;
+  	padding: 90px 0;
+}
+
+.areas-covered-bs .list-group-item {
+	display: inline-block;
+	margin-bottom: 4px;
+}
+
+.emb-contain {
+	height: 500px;
+}
+
+.embed-container { 
+	// position: relative; 
+	// padding-bottom: 56.25%; 
+	height: 100%; 
+	// max-width: 100%; 
+	margin: 0;
+	padding: 0;
+} 
+
+// .embed-container iframe, .embed-container object, .embed-container embed { 
+// 	position: absolute; 
+// 	top: 0; 
+// 	left: 0; 
+// 	width: 100%; 
+// 	height: 100%; 
+// }
+
+/***************************************
+TESTIMONIALS
+****************************************/
+
+.testimonials-bs {
+	background-color: #ddd;
+	// background-image: url("../img/client.png");
+	// background-repeat: repeat;
+  	padding: 90px 0;
+}
+
+.testimonials-bs p {
+	margin-bottom: 0;
+}
+
+.testimonials-bs .panel-footer {
+	background-color: #333;
+	color: white;
+}
+
+/***************************************
+CLIENTS
+****************************************/
+
+.client-bs {
+	background-color: #fff;
+	// background-image: url("../img/client.png");
+	// background-repeat: repeat;
+  	padding: 90px 0;
+}
+
+.client-bs img {
+	max-width: 100%;
+	margin-top: 50px;
+}
+
+/***************************************
+CONTACT
+****************************************/
+
+.contact-bs {
+	background-color: #066859;
+  	padding: 90px 0 40px 0;
+}
+
+.contact-bs label {
+	color: white;
+}
+
+.contact-bs button {
+	float: right;
+}
+
+.contact-bs .btn-default:hover {
+	background-color: #edb41c;
+}
+
+.contact-bs .panel {
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	color: #fff;
+	overflow: hidden;
+}
+
+.contact-bs .panel-default > .panel-heading {
+	background-color: transparent;
+	border: none;
+	color: #edb41c;
+}
+
+@import 'animations';
+
+@import 'media-queries';
+
