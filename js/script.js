@@ -77,13 +77,13 @@ $('#home').click(function (event) {
   var markerAlder = new google.maps.Marker({
       position: new google.maps.LatLng(53.301, -2.237),
       map: map,
-      title: 'Stockport',
+      title: 'Alderley Edge',
       icon: image
   });
   var markerCheadle = new google.maps.Marker({
       position: new google.maps.LatLng(53.394, -2.214),
       map: map,
-      title: 'Stockport',
+      title: 'Cheadle',
       icon: image
   });
 }
