@@ -52,9 +52,49 @@ $('#home').click(function (event) {
 // Brookes Map
 
   function initialize() {
+//   var featureOpts = [
+//   {
+//     "elementType": "geometry",
+//     "stylers": [
+//       { "color": "#333333" }
+//     ]
+//   },{
+//     "featureType": "road.arterial",
+//     "elementType": "geometry",
+//     "stylers": [
+//       { "color": "#EDB41C" }
+//     ]
+//   },{
+//     "featureType": "road.highway",
+//     "elementType": "geometry",
+//     "stylers": [
+//       { "color": "#066859" }
+//     ]
+//   },{
+//     "elementType": "labels.text.stroke",
+//     "stylers": [
+//       { "color": "#808080" },
+//       { "visibility": "off" }
+//     ]
+//   },{
+//     "featureType": "administrative.locality",
+//     "elementType": "labels.text.fill",
+//     "stylers": [
+//       { "color": "#ffffff" }
+//     ]
+//   },{
+//     "featureType": "water",
+//     "elementType": "geometry",
+//     "stylers": [
+//       { "color": "#014875" }
+//     ]
+//   },{
+//   }
+// ]
   var mapOptions = {
     zoom: 10,
-    center: new google.maps.LatLng(53.394, -2.214)
+    center: new google.maps.LatLng(53.394, -2.214),
+    scrollwheel: false
   };
 
   var map = new google.maps.Map(document.getElementById('map-canvas'),
