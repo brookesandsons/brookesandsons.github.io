@@ -10180,6 +10180,31 @@ CONTACT
   color: #edb41c;
 }
 
+/***************************************
+ERROR PAGE
+****************************************/
+/* line 273, ../scss/main.scss */
+.error-page h1 {
+  margin-top: 50px;
+  font-size: 4em;
+}
+
+/* line 278, ../scss/main.scss */
+.error-page a {
+  text-decoration: none;
+  color: #066859;
+}
+
+/* line 283, ../scss/main.scss */
+.error-page a:hover {
+  text-decoration: underline;
+}
+
+/* line 287, ../scss/main.scss */
+.error-page h3 {
+  margin-bottom: 50px;
+}
+
 /************************************
 Animation for bouncing arrow
 ************************************/
